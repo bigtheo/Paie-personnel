@@ -1,0 +1,13 @@
+C:\Users\KAPAPA\OneDrive\Applications kilima\PAIE PERSONNEL\Paie personnel\Paie personnel\obj\Debug\Paie_personnel.Properties.Resources.resources
+C:\Users\KAPAPA\OneDrive\Applications kilima\PAIE PERSONNEL\Paie personnel\Paie personnel\obj\Debug\Paie personnel.csproj.GenerateResource.cache
+C:\Users\KAPAPA\OneDrive\Applications kilima\PAIE PERSONNEL\Paie personnel\Paie personnel\obj\Debug\Paie personnel.csproj.CoreCompileInputs.cache
+C:\Users\KAPAPA\OneDrive\Applications kilima\PAIE PERSONNEL\Paie personnel\Paie personnel\bin\Debug\Paie personnel.exe.config
+C:\Users\KAPAPA\OneDrive\Applications kilima\PAIE PERSONNEL\Paie personnel\Paie personnel\bin\Debug\Paie personnel.exe
+C:\Users\KAPAPA\OneDrive\Applications kilima\PAIE PERSONNEL\Paie personnel\Paie personnel\bin\Debug\Paie personnel.pdb
+C:\Users\KAPAPA\OneDrive\Applications kilima\PAIE PERSONNEL\Paie personnel\Paie personnel\bin\Debug\System.dll
+C:\Users\KAPAPA\OneDrive\Applications kilima\PAIE PERSONNEL\Paie personnel\Paie personnel\bin\Debug\Windows.Forms.HintTextBox.dll
+C:\Users\KAPAPA\OneDrive\Applications kilima\PAIE PERSONNEL\Paie personnel\Paie personnel\bin\Debug\Windows.Forms.HintTextBox.pdb
+C:\Users\KAPAPA\OneDrive\Applications kilima\PAIE PERSONNEL\Paie personnel\Paie personnel\obj\Debug\Paie personnel.exe
+C:\Users\KAPAPA\OneDrive\Applications kilima\PAIE PERSONNEL\Paie personnel\Paie personnel\obj\Debug\Paie personnel.pdb
+C:\Users\KAPAPA\OneDrive\Applications kilima\PAIE PERSONNEL\Paie personnel\Paie personnel\obj\Debug\Paie personnel.csproj.AssemblyReference.cache
+C:\Users\KAPAPA\OneDrive\Applications kilima\PAIE PERSONNEL\Paie personnel\Paie personnel\obj\Debug\Paie_personnel.FrmLogin.resources
