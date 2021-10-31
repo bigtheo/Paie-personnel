@@ -11,3 +11,4 @@ C:\Users\KAPAPA\OneDrive\Applications kilima\PAIE PERSONNEL\Paie personnel\Paie 
 C:\Users\KAPAPA\OneDrive\Applications kilima\PAIE PERSONNEL\Paie personnel\Paie personnel\obj\Debug\Paie personnel.pdb
 C:\Users\KAPAPA\OneDrive\Applications kilima\PAIE PERSONNEL\Paie personnel\Paie personnel\obj\Debug\Paie personnel.csproj.AssemblyReference.cache
 C:\Users\KAPAPA\OneDrive\Applications kilima\PAIE PERSONNEL\Paie personnel\Paie personnel\obj\Debug\Paie_personnel.FrmLogin.resources
+C:\Users\KAPAPA\OneDrive\Applications kilima\PAIE PERSONNEL\Paie personnel\Paie personnel\obj\Debug\Paie_personnel.FrmAccueil.resources
