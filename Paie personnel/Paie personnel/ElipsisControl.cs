@@ -23,6 +23,8 @@ namespace Paie_personnel
             int nHeightElipsis
             );
 
+     
+
         private Control ctrl;
         public Control ControlTarget
         {
