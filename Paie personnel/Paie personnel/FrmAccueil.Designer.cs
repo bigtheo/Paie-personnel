@@ -41,6 +41,7 @@ namespace Paie_personnel
             this.button1 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panelPrincipal = new System.Windows.Forms.Panel();
+            this.panelContainer = new System.Windows.Forms.Panel();
             this.PanelSlide = new System.Windows.Forms.Panel();
             this.BtnPaiements = new System.Windows.Forms.Button();
             this.BtnRetenus = new System.Windows.Forms.Button();
@@ -50,7 +51,6 @@ namespace Paie_personnel
             this.lblConnectionState = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.elipsisControl1 = new Paie_personnel.ElipsisControl();
-            this.panelContainer = new System.Windows.Forms.Panel();
             this.panelHeader.SuspendLayout();
             this.panelText.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -115,7 +115,6 @@ namespace Paie_personnel
             this.hintTextBox1.Name = "hintTextBox1";
             this.hintTextBox1.Size = new System.Drawing.Size(399, 27);
             this.hintTextBox1.TabIndex = 50;
-            this.hintTextBox1.Text = "Ecrire le nom ou le matricule du travailleur";
             this.hintTextBox1.TextForeColor = System.Drawing.Color.White;
             this.hintTextBox1.Value = "";
             // 
@@ -190,6 +189,14 @@ namespace Paie_personnel
             this.panelPrincipal.Name = "panelPrincipal";
             this.panelPrincipal.Size = new System.Drawing.Size(1012, 529);
             this.panelPrincipal.TabIndex = 4;
+            // 
+            // panelContainer
+            // 
+            this.panelContainer.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelContainer.Location = new System.Drawing.Point(266, 0);
+            this.panelContainer.Name = "panelContainer";
+            this.panelContainer.Size = new System.Drawing.Size(746, 529);
+            this.panelContainer.TabIndex = 3;
             // 
             // PanelSlide
             // 
@@ -316,14 +323,6 @@ namespace Paie_personnel
             // 
             this.elipsisControl1.ControlTarget = this.panelText;
             this.elipsisControl1.CornerRadius = 25;
-            // 
-            // panelContainer
-            // 
-            this.panelContainer.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelContainer.Location = new System.Drawing.Point(266, 0);
-            this.panelContainer.Name = "panelContainer";
-            this.panelContainer.Size = new System.Drawing.Size(746, 529);
-            this.panelContainer.TabIndex = 3;
             // 
             // FrmAccueil
             // 

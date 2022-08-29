@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Paie_personnel.Common.Core;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,6 +13,9 @@ namespace Paie_personnel
 {
     public partial class FrmAccueil : Form
     {
+        Color defaultColor = Color.FromArgb(34, 34, 34);
+        Color activeColor = Color.FromArgb(3, 136, 232);
+
         private Form activeForm;
         public FrmAccueil()
         {
@@ -21,7 +25,8 @@ namespace Paie_personnel
         private void BtnPersonnel_Click(object sender, EventArgs e)
         {
             OuvrirFormulaire(new FrmPersonnel());
-
+            BtnPersonnel.Image= Couleur.ChangeColor((Bitmap)BtnPersonnel.Image);
+            BtnPersonnel.ForeColor = activeColor;
         }
 
 
@@ -45,5 +50,25 @@ namespace Paie_personnel
 
         #endregion
 
+        private void BtnAvantages_Click(object sender, EventArgs e)
+        {
+            OuvrirFormulaire(new FrmPersonnel());
+            BtnAvantages.Image = Couleur.ChangeColor((Bitmap)BtnAvantages.Image);
+            BtnAvantages.ForeColor = activeColor;
+        }
+
+        private void BtnRetenus_Click(object sender, EventArgs e)
+        {
+            OuvrirFormulaire(new FrmPersonnel());
+            BtnRetenus.Image = Couleur.ChangeColor((Bitmap)BtnRetenus.Image);
+            BtnRetenus.ForeColor = activeColor;
+        }
+
+        private void BtnPaiements_Click(object sender, EventArgs e)
+        {
+            OuvrirFormulaire(new FrmPersonnel());
+            BtnPaiements.Image = Couleur.ChangeColor((Bitmap)BtnPaiements.Image);
+            BtnPaiements.ForeColor = activeColor;
+        }
     }
 }
