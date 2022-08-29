@@ -32,9 +32,9 @@
             this.elipsisControl1 = new Paie_personnel.ElipsisControl();
             this.BtnEnregistrer = new System.Windows.Forms.Button();
             this.panelBarreTitre = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.elipsisControl2 = new Paie_personnel.ElipsisControl();
             this.label1 = new System.Windows.Forms.Label();
+            this.frmFermer = new System.Windows.Forms.Button();
+            this.elipsisControl2 = new Paie_personnel.ElipsisControl();
             this.hintTextBox1 = new Windows.Forms.HintTextBox(this.components);
             this.panelNom = new System.Windows.Forms.Panel();
             this.elipsisControl3 = new Paie_personnel.ElipsisControl();
@@ -80,29 +80,13 @@
             // 
             this.panelBarreTitre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(143)))), ((int)(((byte)(244)))));
             this.panelBarreTitre.Controls.Add(this.label1);
-            this.panelBarreTitre.Controls.Add(this.button1);
+            this.panelBarreTitre.Controls.Add(this.frmFermer);
             this.panelBarreTitre.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelBarreTitre.Location = new System.Drawing.Point(0, 0);
             this.panelBarreTitre.Name = "panelBarreTitre";
-            this.panelBarreTitre.Size = new System.Drawing.Size(521, 43);
+            this.panelBarreTitre.Size = new System.Drawing.Size(521, 56);
             this.panelBarreTitre.TabIndex = 2;
-            // 
-            // button1
-            // 
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(474, 12);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(35, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "X";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // elipsisControl2
-            // 
-            this.elipsisControl2.ControlTarget = this;
-            this.elipsisControl2.CornerRadius = 15;
+            this.panelBarreTitre.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelBarreTitre_MouseDown);
             // 
             // label1
             // 
@@ -114,6 +98,24 @@
             this.label1.Size = new System.Drawing.Size(219, 20);
             this.label1.TabIndex = 1;
             this.label1.Text = "Ajout d\'un nouveau personel";
+            // 
+            // frmFermer
+            // 
+            this.frmFermer.FlatAppearance.BorderSize = 0;
+            this.frmFermer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.frmFermer.ForeColor = System.Drawing.Color.White;
+            this.frmFermer.Location = new System.Drawing.Point(474, 12);
+            this.frmFermer.Name = "frmFermer";
+            this.frmFermer.Size = new System.Drawing.Size(35, 23);
+            this.frmFermer.TabIndex = 0;
+            this.frmFermer.Text = "X";
+            this.frmFermer.UseVisualStyleBackColor = true;
+            this.frmFermer.Click += new System.EventHandler(this.FrmFermer_Click);
+            // 
+            // elipsisControl2
+            // 
+            this.elipsisControl2.ControlTarget = this;
+            this.elipsisControl2.CornerRadius = 15;
             // 
             // hintTextBox1
             // 
@@ -323,7 +325,7 @@
         private System.Windows.Forms.Button BtnEnregistrer;
         private System.Windows.Forms.Panel panelBarreTitre;
         private ElipsisControl elipsisControl2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button frmFermer;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panelNom;
         private Windows.Forms.HintTextBox hintTextBox1;

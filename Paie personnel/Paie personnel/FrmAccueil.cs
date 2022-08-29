@@ -75,7 +75,7 @@ namespace Paie_personnel
 
         private void BtnAvantages_Click(object sender, EventArgs e)
         {
-            OuvrirFormulaire(new FrmPersonnel());
+            OuvrirFormulaire(new FrmAvantages());
             BtnAvantages.Image = Couleur.ChangeColor((Bitmap)BtnAvantages.Image);
             BtnAvantages.ForeColor = activeColor;
             BtnAvantages.BackColor = Color.White;
@@ -104,7 +104,7 @@ namespace Paie_personnel
 
         private void BtnRetenus_Click(object sender, EventArgs e)
         {
-            OuvrirFormulaire(new FrmPersonnel());
+            OuvrirFormulaire(new FrmRetenus());
             BtnRetenus.Image = Couleur.ChangeColor((Bitmap)BtnRetenus.Image);
             BtnRetenus.ForeColor = activeColor;
             BtnRetenus.BackColor = Color.White;
@@ -132,7 +132,7 @@ namespace Paie_personnel
 
         private void BtnPaiements_Click(object sender, EventArgs e)
         {
-            OuvrirFormulaire(new FrmPersonnel());
+            OuvrirFormulaire(new FrmPaiement());
             BtnPaiements.Image = Couleur.ChangeColor((Bitmap)BtnPaiements.Image);
             BtnPaiements.ForeColor = activeColor;
             BtnPaiements.BackColor =Color.White;
