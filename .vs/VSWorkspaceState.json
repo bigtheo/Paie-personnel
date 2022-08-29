@@ -1,8 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Paie personnel"
+    "\\Paie personnel",
+    "\\Paie personnel\\Paie personnel",
+    "\\Paie personnel\\Paie personnel\\Common",
+    "\\Paie personnel\\Paie personnel\\Common\\UserControl"
   ],
-  "SelectedNode": "\\Paie personnel\\Paie personnel.sln",
+  "SelectedNode": "\\Paie personnel\\Paie personnel\\Common\\UserControl\\Personnel.cs",
   "PreviewInSolutionExplorer": false
 }

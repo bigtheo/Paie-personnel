@@ -32,32 +32,32 @@ namespace Paie_personnel
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmAccueil));
             this.panelHeader = new System.Windows.Forms.Panel();
+            this.panelText = new System.Windows.Forms.Panel();
+            this.button5 = new System.Windows.Forms.Button();
+            this.hintTextBox1 = new Windows.Forms.HintTextBox(this.components);
+            this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
+            this.panelPrincipal = new System.Windows.Forms.Panel();
             this.PanelSlide = new System.Windows.Forms.Panel();
             this.BtnPaiements = new System.Windows.Forms.Button();
             this.BtnRetenus = new System.Windows.Forms.Button();
             this.BtnAvantages = new System.Windows.Forms.Button();
             this.BtnPersonnel = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lblConnectionState = new System.Windows.Forms.Label();
-            this.penelContainer = new System.Windows.Forms.Panel();
-            this.button4 = new System.Windows.Forms.Button();
-            this.hintTextBox1 = new Windows.Forms.HintTextBox(this.components);
-            this.panelText = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.elipsisControl1 = new Paie_personnel.ElipsisControl();
-            this.button5 = new System.Windows.Forms.Button();
+            this.panelContainer = new System.Windows.Forms.Panel();
             this.panelHeader.SuspendLayout();
+            this.panelText.SuspendLayout();
             this.panel1.SuspendLayout();
-            this.panel3.SuspendLayout();
+            this.panelPrincipal.SuspendLayout();
             this.PanelSlide.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.panelText.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelHeader
@@ -74,6 +74,62 @@ namespace Paie_personnel
             this.panelHeader.Name = "panelHeader";
             this.panelHeader.Size = new System.Drawing.Size(1012, 68);
             this.panelHeader.TabIndex = 2;
+            // 
+            // panelText
+            // 
+            this.panelText.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(83)))), ((int)(((byte)(168)))));
+            this.panelText.Controls.Add(this.button5);
+            this.panelText.Controls.Add(this.hintTextBox1);
+            this.panelText.Location = new System.Drawing.Point(159, 11);
+            this.panelText.Name = "panelText";
+            this.panelText.Size = new System.Drawing.Size(651, 46);
+            this.panelText.TabIndex = 0;
+            // 
+            // button5
+            // 
+            this.button5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.button5.FlatAppearance.BorderSize = 0;
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.Color.White;
+            this.button5.Location = new System.Drawing.Point(512, 4);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(121, 38);
+            this.button5.TabIndex = 6;
+            this.button5.Text = "Rechercher";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
+            // hintTextBox1
+            // 
+            this.hintTextBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.hintTextBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(83)))), ((int)(((byte)(168)))));
+            this.hintTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.hintTextBox1.EnterToTab = false;
+            this.hintTextBox1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hintTextBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(152)))), ((int)(((byte)(203)))));
+            this.hintTextBox1.HintColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(152)))), ((int)(((byte)(203)))));
+            this.hintTextBox1.HintValue = "Ecrire le nom ou le matricule du travailleur";
+            this.hintTextBox1.Location = new System.Drawing.Point(22, 11);
+            this.hintTextBox1.Name = "hintTextBox1";
+            this.hintTextBox1.Size = new System.Drawing.Size(399, 27);
+            this.hintTextBox1.TabIndex = 50;
+            this.hintTextBox1.Text = "Ecrire le nom ou le matricule du travailleur";
+            this.hintTextBox1.TextForeColor = System.Drawing.Color.White;
+            this.hintTextBox1.Value = "";
+            // 
+            // button4
+            // 
+            this.button4.FlatAppearance.BorderSize = 0;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.ForeColor = System.Drawing.Color.White;
+            this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
+            this.button4.Location = new System.Drawing.Point(75, 13);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(43, 42);
+            this.button4.TabIndex = 3;
+            this.button4.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
@@ -117,7 +173,7 @@ namespace Paie_personnel
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(250)))), ((int)(((byte)(250)))));
-            this.panel1.Controls.Add(this.panel3);
+            this.panel1.Controls.Add(this.panelPrincipal);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 68);
@@ -125,15 +181,15 @@ namespace Paie_personnel
             this.panel1.Size = new System.Drawing.Size(1012, 557);
             this.panel1.TabIndex = 3;
             // 
-            // panel3
+            // panelPrincipal
             // 
-            this.panel3.Controls.Add(this.penelContainer);
-            this.panel3.Controls.Add(this.PanelSlide);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.Location = new System.Drawing.Point(0, 0);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1012, 529);
-            this.panel3.TabIndex = 4;
+            this.panelPrincipal.Controls.Add(this.panelContainer);
+            this.panelPrincipal.Controls.Add(this.PanelSlide);
+            this.panelPrincipal.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelPrincipal.Location = new System.Drawing.Point(0, 0);
+            this.panelPrincipal.Name = "panelPrincipal";
+            this.panelPrincipal.Size = new System.Drawing.Size(1012, 529);
+            this.panelPrincipal.TabIndex = 4;
             // 
             // PanelSlide
             // 
@@ -224,6 +280,7 @@ namespace Paie_personnel
             this.BtnPersonnel.Text = "Personnel";
             this.BtnPersonnel.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.BtnPersonnel.UseVisualStyleBackColor = false;
+            this.BtnPersonnel.Click += new System.EventHandler(this.BtnPersonnel_Click);
             // 
             // panel2
             // 
@@ -236,6 +293,15 @@ namespace Paie_personnel
             this.panel2.Size = new System.Drawing.Size(1012, 28);
             this.panel2.TabIndex = 3;
             // 
+            // lblConnectionState
+            // 
+            this.lblConnectionState.AutoSize = true;
+            this.lblConnectionState.Location = new System.Drawing.Point(33, 7);
+            this.lblConnectionState.Name = "lblConnectionState";
+            this.lblConnectionState.Size = new System.Drawing.Size(64, 16);
+            this.lblConnectionState.TabIndex = 1;
+            this.lblConnectionState.Text = "Connecté";
+            // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
@@ -246,83 +312,18 @@ namespace Paie_personnel
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // lblConnectionState
-            // 
-            this.lblConnectionState.AutoSize = true;
-            this.lblConnectionState.Location = new System.Drawing.Point(33, 7);
-            this.lblConnectionState.Name = "lblConnectionState";
-            this.lblConnectionState.Size = new System.Drawing.Size(64, 16);
-            this.lblConnectionState.TabIndex = 1;
-            this.lblConnectionState.Text = "Connecté";
-            // 
-            // penelContainer
-            // 
-            this.penelContainer.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.penelContainer.Location = new System.Drawing.Point(266, 0);
-            this.penelContainer.Name = "penelContainer";
-            this.penelContainer.Size = new System.Drawing.Size(746, 529);
-            this.penelContainer.TabIndex = 3;
-            // 
-            // button4
-            // 
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
-            this.button4.Location = new System.Drawing.Point(75, 13);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(43, 42);
-            this.button4.TabIndex = 3;
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // hintTextBox1
-            // 
-            this.hintTextBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.hintTextBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(83)))), ((int)(((byte)(168)))));
-            this.hintTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.hintTextBox1.EnterToTab = false;
-            this.hintTextBox1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hintTextBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(152)))), ((int)(((byte)(203)))));
-            this.hintTextBox1.HintColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(152)))), ((int)(((byte)(203)))));
-            this.hintTextBox1.HintValue = "Ecrire le nom ou le matricule du travailleur";
-            this.hintTextBox1.Location = new System.Drawing.Point(22, 11);
-            this.hintTextBox1.Name = "hintTextBox1";
-            this.hintTextBox1.Size = new System.Drawing.Size(399, 27);
-            this.hintTextBox1.TabIndex = 50;
-            this.hintTextBox1.Text = "Ecrire le nom ou le matricule du travailleur";
-            this.hintTextBox1.TextForeColor = System.Drawing.Color.White;
-            this.hintTextBox1.Value = "";
-            // 
-            // panelText
-            // 
-            this.panelText.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(83)))), ((int)(((byte)(168)))));
-            this.panelText.Controls.Add(this.button5);
-            this.panelText.Controls.Add(this.hintTextBox1);
-            this.panelText.Location = new System.Drawing.Point(159, 11);
-            this.panelText.Name = "panelText";
-            this.panelText.Size = new System.Drawing.Size(651, 46);
-            this.panelText.TabIndex = 0;
-            // 
             // elipsisControl1
             // 
             this.elipsisControl1.ControlTarget = this.panelText;
             this.elipsisControl1.CornerRadius = 25;
             // 
-            // button5
+            // panelContainer
             // 
-            this.button5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Location = new System.Drawing.Point(512, 4);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(121, 38);
-            this.button5.TabIndex = 6;
-            this.button5.Text = "Rechercher";
-            this.button5.UseVisualStyleBackColor = true;
+            this.panelContainer.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelContainer.Location = new System.Drawing.Point(266, 0);
+            this.panelContainer.Name = "panelContainer";
+            this.panelContainer.Size = new System.Drawing.Size(746, 529);
+            this.panelContainer.TabIndex = 3;
             // 
             // FrmAccueil
             // 
@@ -339,14 +340,14 @@ namespace Paie_personnel
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "RH PAY MANAGER";
             this.panelHeader.ResumeLayout(false);
+            this.panelText.ResumeLayout(false);
+            this.panelText.PerformLayout();
             this.panel1.ResumeLayout(false);
-            this.panel3.ResumeLayout(false);
+            this.panelPrincipal.ResumeLayout(false);
             this.PanelSlide.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.panelText.ResumeLayout(false);
-            this.panelText.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -362,15 +363,15 @@ namespace Paie_personnel
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Panel panelPrincipal;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label lblConnectionState;
-        private System.Windows.Forms.Panel penelContainer;
         private System.Windows.Forms.Button button4;
         private Windows.Forms.HintTextBox hintTextBox1;
         private System.Windows.Forms.Panel panelText;
         private ElipsisControl elipsisControl1;
         private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Panel panelContainer;
     }
 }

@@ -16,6 +16,7 @@ C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie 
 C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie personnel\bin\Debug\Paie personnel.exe
 C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie personnel\bin\Debug\Paie personnel.pdb
 C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie personnel\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie personnel\bin\Debug\Google.Protobuf.dll
 C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie personnel\bin\Debug\itext.barcodes.dll
 C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie personnel\bin\Debug\itext.commons.dll
 C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie personnel\bin\Debug\itext.forms.dll
@@ -26,6 +27,9 @@ C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie 
 C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie personnel\bin\Debug\itext.sign.dll
 C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie personnel\bin\Debug\itext.styledxmlparser.dll
 C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie personnel\bin\Debug\itext.svg.dll
+C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie personnel\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie personnel\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie personnel\bin\Debug\K4os.Hash.xxHash.dll
 C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie personnel\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie personnel\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie personnel\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
@@ -33,6 +37,8 @@ C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie 
 C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie personnel\bin\Debug\Microsoft.Extensions.Logging.dll
 C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie personnel\bin\Debug\Microsoft.Extensions.Options.dll
 C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie personnel\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie personnel\bin\Debug\MySql.Data.dll
+C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie personnel\bin\Debug\Newtonsoft.Json.dll
 C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie personnel\bin\Debug\System.Buffers.dll
 C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie personnel\bin\Debug\System.Diagnostics.DiagnosticSource.dll
 C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie personnel\bin\Debug\System.Memory.dll
@@ -40,8 +46,12 @@ C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie 
 C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie personnel\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie personnel\bin\Debug\System.Threading.Tasks.Extensions.dll
 C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie personnel\bin\Debug\System.ValueTuple.dll
+C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie personnel\bin\Debug\Ubiety.Dns.Core.dll
 C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie personnel\bin\Debug\Windows.Forms.HintTextBox.dll
+C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie personnel\bin\Debug\ZstdNet.dll
 C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie personnel\bin\Debug\BouncyCastle.Crypto.xml
+C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie personnel\bin\Debug\Google.Protobuf.pdb
+C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie personnel\bin\Debug\Google.Protobuf.xml
 C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie personnel\bin\Debug\itext.barcodes.xml
 C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie personnel\bin\Debug\itext.commons.xml
 C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie personnel\bin\Debug\itext.forms.xml
@@ -52,6 +62,9 @@ C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie 
 C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie personnel\bin\Debug\itext.sign.xml
 C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie personnel\bin\Debug\itext.styledxmlparser.xml
 C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie personnel\bin\Debug\itext.svg.xml
+C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie personnel\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie personnel\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie personnel\bin\Debug\K4os.Hash.xxHash.xml
 C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie personnel\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
 C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie personnel\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
 C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie personnel\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
@@ -59,6 +72,8 @@ C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie 
 C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie personnel\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
 C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie personnel\bin\Debug\Microsoft.Extensions.Options.xml
 C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie personnel\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie personnel\bin\Debug\MySql.Data.xml
+C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie personnel\bin\Debug\Newtonsoft.Json.xml
 C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie personnel\bin\Debug\System.Buffers.xml
 C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie personnel\bin\Debug\System.Diagnostics.DiagnosticSource.xml
 C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie personnel\bin\Debug\System.Memory.xml
@@ -69,8 +84,11 @@ C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie 
 C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie personnel\bin\Debug\Windows.Forms.HintTextBox.pdb
 C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie personnel\obj\Debug\Paie personnel.csproj.AssemblyReference.cache
 C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie personnel\obj\Debug\Paie personnel.csproj.SuggestedBindingRedirects.cache
+C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie personnel\obj\Debug\Paie_personnel.Personnel.resources
+C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie personnel\obj\Debug\Paie_personnel.Common.UserControl.FrmAjouterPersonnel.resources
 C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie personnel\obj\Debug\Paie_personnel.FrmAccueil.resources
 C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie personnel\obj\Debug\Paie_personnel.FrmLogin.resources
+C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie personnel\obj\Debug\Paie_personnel.FrmPersonnel.resources
 C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie personnel\obj\Debug\Paie_personnel.Properties.Resources.resources
 C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie personnel\obj\Debug\Paie personnel.csproj.GenerateResource.cache
 C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie personnel\obj\Debug\Paie personnel.csproj.CoreCompileInputs.cache

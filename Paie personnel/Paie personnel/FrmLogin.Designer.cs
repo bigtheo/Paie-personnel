@@ -40,6 +40,7 @@ namespace Paie_personnel
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.BtnConnexion = new System.Windows.Forms.Button();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.elipsisControl1 = new Paie_personnel.ElipsisControl();
             this.PanelBarreDeTitre.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -48,7 +49,7 @@ namespace Paie_personnel
             // 
             // PanelBarreDeTitre
             // 
-            this.PanelBarreDeTitre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(177)))), ((int)(((byte)(233)))));
+            this.PanelBarreDeTitre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(100)))), ((int)(((byte)(200)))));
             this.PanelBarreDeTitre.Controls.Add(this.label1);
             this.PanelBarreDeTitre.Controls.Add(this.BtnFermer);
             this.PanelBarreDeTitre.Dock = System.Windows.Forms.DockStyle.Top;
@@ -65,7 +66,7 @@ namespace Paie_personnel
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(12, 12);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(169, 21);
+            this.label1.Size = new System.Drawing.Size(214, 23);
             this.label1.TabIndex = 2;
             this.label1.Text = "Connexion à la base";
             this.label1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.PanelBarreDeTitre_MouseDown);
@@ -92,7 +93,7 @@ namespace Paie_personnel
             this.hintTextBox1.HintValue = "Nom utilisateur";
             this.hintTextBox1.Location = new System.Drawing.Point(165, 110);
             this.hintTextBox1.Name = "hintTextBox1";
-            this.hintTextBox1.Size = new System.Drawing.Size(238, 25);
+            this.hintTextBox1.Size = new System.Drawing.Size(238, 29);
             this.hintTextBox1.TabIndex = 1;
             this.hintTextBox1.Text = "Nom utilisateur";
             this.hintTextBox1.TextForeColor = System.Drawing.Color.Black;
@@ -106,7 +107,7 @@ namespace Paie_personnel
             this.hintTextBox2.HintValue = "Mot de passe";
             this.hintTextBox2.Location = new System.Drawing.Point(165, 141);
             this.hintTextBox2.Name = "hintTextBox2";
-            this.hintTextBox2.Size = new System.Drawing.Size(238, 25);
+            this.hintTextBox2.Size = new System.Drawing.Size(238, 29);
             this.hintTextBox2.TabIndex = 2;
             this.hintTextBox2.Text = "Mot de passe";
             this.hintTextBox2.TextForeColor = System.Drawing.Color.Black;
@@ -135,13 +136,13 @@ namespace Paie_personnel
             // 
             // BtnConnexion
             // 
-            this.BtnConnexion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(177)))), ((int)(((byte)(233)))));
+            this.BtnConnexion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(100)))), ((int)(((byte)(200)))));
             this.BtnConnexion.FlatAppearance.BorderSize = 0;
             this.BtnConnexion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnConnexion.ForeColor = System.Drawing.Color.White;
             this.BtnConnexion.Location = new System.Drawing.Point(165, 182);
             this.BtnConnexion.Name = "BtnConnexion";
-            this.BtnConnexion.Size = new System.Drawing.Size(114, 30);
+            this.BtnConnexion.Size = new System.Drawing.Size(119, 35);
             this.BtnConnexion.TabIndex = 5;
             this.BtnConnexion.Text = "Connexion";
             this.BtnConnexion.UseVisualStyleBackColor = false;
@@ -157,9 +158,14 @@ namespace Paie_personnel
             this.pictureBox3.TabIndex = 6;
             this.pictureBox3.TabStop = false;
             // 
+            // elipsisControl1
+            // 
+            this.elipsisControl1.ControlTarget = this.BtnConnexion;
+            this.elipsisControl1.CornerRadius = 10;
+            // 
             // FrmLogin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(441, 258);
@@ -198,5 +204,6 @@ namespace Paie_personnel
         private System.Windows.Forms.Button BtnConnexion;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox3;
+        private ElipsisControl elipsisControl1;
     }
 }
