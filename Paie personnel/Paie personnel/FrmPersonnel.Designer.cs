@@ -37,12 +37,9 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.BtnImprimer = new System.Windows.Forms.Button();
             this.BtnAjouter = new System.Windows.Forms.Button();
-            this.personnel1 = new Paie_personnel.Personnel();
-            this.personnel2 = new Paie_personnel.Personnel();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel4.SuspendLayout();
-            this.ListePersonnel.SuspendLayout();
             this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -101,8 +98,6 @@
             this.ListePersonnel.AutoSize = true;
             this.ListePersonnel.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ListePersonnel.BackColor = System.Drawing.Color.White;
-            this.ListePersonnel.Controls.Add(this.personnel1);
-            this.ListePersonnel.Controls.Add(this.personnel2);
             this.ListePersonnel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ListePersonnel.Font = new System.Drawing.Font("Segoe UI", 10.2F);
             this.ListePersonnel.Location = new System.Drawing.Point(0, 0);
@@ -148,28 +143,6 @@
             this.BtnAjouter.UseVisualStyleBackColor = false;
             this.BtnAjouter.Click += new System.EventHandler(this.BtnAjouter_Click);
             // 
-            // personnel1
-            // 
-            this.personnel1.AutoSize = true;
-            this.personnel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.personnel1.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.personnel1.Location = new System.Drawing.Point(4, 5);
-            this.personnel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.personnel1.Name = "personnel1";
-            this.personnel1.Size = new System.Drawing.Size(664, 90);
-            this.personnel1.TabIndex = 0;
-            // 
-            // personnel2
-            // 
-            this.personnel2.AutoSize = true;
-            this.personnel2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.personnel2.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.personnel2.Location = new System.Drawing.Point(4, 105);
-            this.personnel2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.personnel2.Name = "personnel2";
-            this.personnel2.Size = new System.Drawing.Size(664, 90);
-            this.personnel2.TabIndex = 1;
-            // 
             // FrmPersonnel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -186,8 +159,6 @@
             this.panel2.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
-            this.ListePersonnel.ResumeLayout(false);
-            this.ListePersonnel.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -204,7 +175,5 @@
         private System.Windows.Forms.Button BtnImprimer;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.FlowLayoutPanel ListePersonnel;
-        private Personnel personnel1;
-        private Personnel personnel2;
     }
 }

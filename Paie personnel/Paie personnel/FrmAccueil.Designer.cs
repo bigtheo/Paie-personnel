@@ -44,13 +44,17 @@ namespace Paie_personnel
             this.panelContainer = new System.Windows.Forms.Panel();
             this.PanelSlide = new System.Windows.Forms.Panel();
             this.BtnPaiements = new System.Windows.Forms.Button();
-            this.BtnRetenus = new System.Windows.Forms.Button();
-            this.BtnAvantages = new System.Windows.Forms.Button();
             this.BtnPersonnel = new System.Windows.Forms.Button();
+            this.BtnAvantages = new System.Windows.Forms.Button();
+            this.BtnRetenus = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.lblConnectionState = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.elipsisControl1 = new Paie_personnel.ElipsisControl();
+            this.elipsisControl2 = new Paie_personnel.ElipsisControl();
+            this.elipsisControl3 = new Paie_personnel.ElipsisControl();
+            this.elipsisControl4 = new Paie_personnel.ElipsisControl();
+            this.elipsisControl5 = new Paie_personnel.ElipsisControl();
             this.panelHeader.SuspendLayout();
             this.panelText.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -72,7 +76,7 @@ namespace Paie_personnel
             this.panelHeader.Location = new System.Drawing.Point(0, 0);
             this.panelHeader.Margin = new System.Windows.Forms.Padding(4);
             this.panelHeader.Name = "panelHeader";
-            this.panelHeader.Size = new System.Drawing.Size(1012, 68);
+            this.panelHeader.Size = new System.Drawing.Size(1145, 68);
             this.panelHeader.TabIndex = 2;
             // 
             // panelText
@@ -137,7 +141,7 @@ namespace Paie_personnel
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(879, 15);
+            this.button3.Location = new System.Drawing.Point(1012, 15);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(121, 38);
             this.button3.TabIndex = 2;
@@ -151,7 +155,7 @@ namespace Paie_personnel
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.ForeColor = System.Drawing.Color.White;
             this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
-            this.button2.Location = new System.Drawing.Point(828, 15);
+            this.button2.Location = new System.Drawing.Point(961, 15);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(45, 38);
             this.button2.TabIndex = 1;
@@ -177,7 +181,7 @@ namespace Paie_personnel
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 68);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1012, 557);
+            this.panel1.Size = new System.Drawing.Size(1145, 558);
             this.panel1.TabIndex = 3;
             // 
             // panelPrincipal
@@ -187,107 +191,102 @@ namespace Paie_personnel
             this.panelPrincipal.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelPrincipal.Location = new System.Drawing.Point(0, 0);
             this.panelPrincipal.Name = "panelPrincipal";
-            this.panelPrincipal.Size = new System.Drawing.Size(1012, 529);
+            this.panelPrincipal.Size = new System.Drawing.Size(1145, 530);
             this.panelPrincipal.TabIndex = 4;
             // 
             // panelContainer
             // 
             this.panelContainer.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelContainer.Location = new System.Drawing.Point(266, 0);
+            this.panelContainer.Location = new System.Drawing.Point(304, 0);
             this.panelContainer.Name = "panelContainer";
-            this.panelContainer.Size = new System.Drawing.Size(746, 529);
+            this.panelContainer.Size = new System.Drawing.Size(841, 530);
             this.panelContainer.TabIndex = 3;
             // 
             // PanelSlide
             // 
             this.PanelSlide.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(240)))), ((int)(((byte)(242)))));
             this.PanelSlide.Controls.Add(this.BtnPaiements);
-            this.PanelSlide.Controls.Add(this.BtnRetenus);
             this.PanelSlide.Controls.Add(this.BtnAvantages);
             this.PanelSlide.Controls.Add(this.BtnPersonnel);
+            this.PanelSlide.Controls.Add(this.BtnRetenus);
             this.PanelSlide.Dock = System.Windows.Forms.DockStyle.Left;
             this.PanelSlide.Location = new System.Drawing.Point(0, 0);
-            this.PanelSlide.Margin = new System.Windows.Forms.Padding(4);
+            this.PanelSlide.Margin = new System.Windows.Forms.Padding(25);
             this.PanelSlide.Name = "PanelSlide";
-            this.PanelSlide.Size = new System.Drawing.Size(266, 529);
+            this.PanelSlide.Size = new System.Drawing.Size(304, 530);
             this.PanelSlide.TabIndex = 2;
             // 
             // BtnPaiements
             // 
             this.BtnPaiements.BackColor = System.Drawing.SystemColors.Control;
-            this.BtnPaiements.Dock = System.Windows.Forms.DockStyle.Top;
             this.BtnPaiements.FlatAppearance.BorderSize = 0;
             this.BtnPaiements.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnPaiements.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnPaiements.ForeColor = System.Drawing.Color.Black;
             this.BtnPaiements.Image = ((System.Drawing.Image)(resources.GetObject("BtnPaiements.Image")));
             this.BtnPaiements.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BtnPaiements.Location = new System.Drawing.Point(0, 198);
+            this.BtnPaiements.Location = new System.Drawing.Point(36, 261);
             this.BtnPaiements.Margin = new System.Windows.Forms.Padding(4);
             this.BtnPaiements.Name = "BtnPaiements";
-            this.BtnPaiements.Size = new System.Drawing.Size(266, 66);
+            this.BtnPaiements.Size = new System.Drawing.Size(248, 52);
             this.BtnPaiements.TabIndex = 11;
             this.BtnPaiements.Text = "Paiements";
-            this.BtnPaiements.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.BtnPaiements.UseVisualStyleBackColor = false;
-            // 
-            // BtnRetenus
-            // 
-            this.BtnRetenus.BackColor = System.Drawing.SystemColors.Control;
-            this.BtnRetenus.Dock = System.Windows.Forms.DockStyle.Top;
-            this.BtnRetenus.FlatAppearance.BorderSize = 0;
-            this.BtnRetenus.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnRetenus.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnRetenus.ForeColor = System.Drawing.Color.Black;
-            this.BtnRetenus.Image = ((System.Drawing.Image)(resources.GetObject("BtnRetenus.Image")));
-            this.BtnRetenus.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BtnRetenus.Location = new System.Drawing.Point(0, 132);
-            this.BtnRetenus.Margin = new System.Windows.Forms.Padding(4);
-            this.BtnRetenus.Name = "BtnRetenus";
-            this.BtnRetenus.Size = new System.Drawing.Size(266, 66);
-            this.BtnRetenus.TabIndex = 8;
-            this.BtnRetenus.Text = "Retenus";
-            this.BtnRetenus.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.BtnRetenus.UseVisualStyleBackColor = false;
-            // 
-            // BtnAvantages
-            // 
-            this.BtnAvantages.BackColor = System.Drawing.SystemColors.Control;
-            this.BtnAvantages.Dock = System.Windows.Forms.DockStyle.Top;
-            this.BtnAvantages.FlatAppearance.BorderSize = 0;
-            this.BtnAvantages.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnAvantages.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnAvantages.ForeColor = System.Drawing.Color.Black;
-            this.BtnAvantages.Image = ((System.Drawing.Image)(resources.GetObject("BtnAvantages.Image")));
-            this.BtnAvantages.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BtnAvantages.Location = new System.Drawing.Point(0, 66);
-            this.BtnAvantages.Margin = new System.Windows.Forms.Padding(4);
-            this.BtnAvantages.Name = "BtnAvantages";
-            this.BtnAvantages.Size = new System.Drawing.Size(266, 66);
-            this.BtnAvantages.TabIndex = 7;
-            this.BtnAvantages.Text = "Avantages";
-            this.BtnAvantages.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.BtnAvantages.UseVisualStyleBackColor = false;
+            this.BtnPaiements.Click += new System.EventHandler(this.BtnPaiements_Click);
             // 
             // BtnPersonnel
             // 
             this.BtnPersonnel.BackColor = System.Drawing.SystemColors.Control;
-            this.BtnPersonnel.Dock = System.Windows.Forms.DockStyle.Top;
             this.BtnPersonnel.FlatAppearance.BorderSize = 0;
             this.BtnPersonnel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnPersonnel.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnPersonnel.ForeColor = System.Drawing.Color.Black;
             this.BtnPersonnel.Image = ((System.Drawing.Image)(resources.GetObject("BtnPersonnel.Image")));
             this.BtnPersonnel.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BtnPersonnel.Location = new System.Drawing.Point(0, 0);
-            this.BtnPersonnel.Margin = new System.Windows.Forms.Padding(4);
+            this.BtnPersonnel.Location = new System.Drawing.Point(36, 33);
+            this.BtnPersonnel.Margin = new System.Windows.Forms.Padding(0);
             this.BtnPersonnel.Name = "BtnPersonnel";
-            this.BtnPersonnel.Size = new System.Drawing.Size(266, 66);
+            this.BtnPersonnel.Size = new System.Drawing.Size(248, 52);
             this.BtnPersonnel.TabIndex = 6;
             this.BtnPersonnel.Text = "Personnel";
-            this.BtnPersonnel.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.BtnPersonnel.UseVisualStyleBackColor = false;
             this.BtnPersonnel.Click += new System.EventHandler(this.BtnPersonnel_Click);
+            // 
+            // BtnAvantages
+            // 
+            this.BtnAvantages.BackColor = System.Drawing.SystemColors.Control;
+            this.BtnAvantages.FlatAppearance.BorderSize = 0;
+            this.BtnAvantages.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnAvantages.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnAvantages.ForeColor = System.Drawing.Color.Black;
+            this.BtnAvantages.Image = ((System.Drawing.Image)(resources.GetObject("BtnAvantages.Image")));
+            this.BtnAvantages.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnAvantages.Location = new System.Drawing.Point(36, 109);
+            this.BtnAvantages.Margin = new System.Windows.Forms.Padding(4);
+            this.BtnAvantages.Name = "BtnAvantages";
+            this.BtnAvantages.Size = new System.Drawing.Size(248, 52);
+            this.BtnAvantages.TabIndex = 7;
+            this.BtnAvantages.Text = "Avantages";
+            this.BtnAvantages.UseVisualStyleBackColor = false;
+            this.BtnAvantages.Click += new System.EventHandler(this.BtnAvantages_Click);
+            // 
+            // BtnRetenus
+            // 
+            this.BtnRetenus.BackColor = System.Drawing.SystemColors.Control;
+            this.BtnRetenus.FlatAppearance.BorderSize = 0;
+            this.BtnRetenus.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnRetenus.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnRetenus.ForeColor = System.Drawing.Color.Black;
+            this.BtnRetenus.Image = ((System.Drawing.Image)(resources.GetObject("BtnRetenus.Image")));
+            this.BtnRetenus.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnRetenus.Location = new System.Drawing.Point(36, 185);
+            this.BtnRetenus.Margin = new System.Windows.Forms.Padding(4);
+            this.BtnRetenus.Name = "BtnRetenus";
+            this.BtnRetenus.Size = new System.Drawing.Size(248, 52);
+            this.BtnRetenus.TabIndex = 8;
+            this.BtnRetenus.Text = "Retenus";
+            this.BtnRetenus.UseVisualStyleBackColor = false;
+            this.BtnRetenus.Click += new System.EventHandler(this.BtnRetenus_Click);
             // 
             // panel2
             // 
@@ -295,9 +294,9 @@ namespace Paie_personnel
             this.panel2.Controls.Add(this.lblConnectionState);
             this.panel2.Controls.Add(this.pictureBox1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 529);
+            this.panel2.Location = new System.Drawing.Point(0, 530);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1012, 28);
+            this.panel2.Size = new System.Drawing.Size(1145, 28);
             this.panel2.TabIndex = 3;
             // 
             // lblConnectionState
@@ -324,12 +323,32 @@ namespace Paie_personnel
             this.elipsisControl1.ControlTarget = this.panelText;
             this.elipsisControl1.CornerRadius = 25;
             // 
+            // elipsisControl2
+            // 
+            this.elipsisControl2.ControlTarget = this.BtnPersonnel;
+            this.elipsisControl2.CornerRadius = 10;
+            // 
+            // elipsisControl3
+            // 
+            this.elipsisControl3.ControlTarget = this.BtnAvantages;
+            this.elipsisControl3.CornerRadius = 10;
+            // 
+            // elipsisControl4
+            // 
+            this.elipsisControl4.ControlTarget = this.BtnRetenus;
+            this.elipsisControl4.CornerRadius = 10;
+            // 
+            // elipsisControl5
+            // 
+            this.elipsisControl5.ControlTarget = this.BtnPaiements;
+            this.elipsisControl5.CornerRadius = 10;
+            // 
             // FrmAccueil
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(83)))), ((int)(((byte)(168)))));
-            this.ClientSize = new System.Drawing.Size(1012, 625);
+            this.ClientSize = new System.Drawing.Size(1145, 626);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panelHeader);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -372,5 +391,9 @@ namespace Paie_personnel
         private ElipsisControl elipsisControl1;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Panel panelContainer;
+        private ElipsisControl elipsisControl2;
+        private ElipsisControl elipsisControl3;
+        private ElipsisControl elipsisControl4;
+        private ElipsisControl elipsisControl5;
     }
 }

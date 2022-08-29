@@ -30,9 +30,9 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Personnel));
             this.PbxPhoto = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.button5 = new System.Windows.Forms.Button();
+            this.lbl_nom = new System.Windows.Forms.Label();
+            this.lbl_fonction = new System.Windows.Forms.Label();
+            this.BtnVoirPlus = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.elipsisControl1 = new Paie_personnel.ElipsisControl();
             ((System.ComponentModel.ISupportInitialize)(this.PbxPhoto)).BeginInit();
@@ -50,38 +50,38 @@
             this.PbxPhoto.TabIndex = 0;
             this.PbxPhoto.TabStop = false;
             // 
-            // label1
+            // lbl_nom
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(115, 16);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(240, 28);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Nom, postnom et prénom";
+            this.lbl_nom.AutoSize = true;
+            this.lbl_nom.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_nom.Location = new System.Drawing.Point(115, 16);
+            this.lbl_nom.Name = "lbl_nom";
+            this.lbl_nom.Size = new System.Drawing.Size(240, 28);
+            this.lbl_nom.TabIndex = 1;
+            this.lbl_nom.Text = "Nom, postnom et prénom";
             // 
-            // label2
+            // lbl_fonction
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(116, 47);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(81, 25);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Fonction";
+            this.lbl_fonction.AutoSize = true;
+            this.lbl_fonction.Location = new System.Drawing.Point(116, 47);
+            this.lbl_fonction.Name = "lbl_fonction";
+            this.lbl_fonction.Size = new System.Drawing.Size(81, 25);
+            this.lbl_fonction.TabIndex = 2;
+            this.lbl_fonction.Text = "Fonction";
             // 
-            // button5
+            // BtnVoirPlus
             // 
-            this.button5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(136)))), ((int)(((byte)(232)))));
-            this.button5.Location = new System.Drawing.Point(497, 25);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(121, 38);
-            this.button5.TabIndex = 7;
-            this.button5.Text = "Voir plus";
-            this.button5.UseVisualStyleBackColor = true;
+            this.BtnVoirPlus.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.BtnVoirPlus.FlatAppearance.BorderSize = 0;
+            this.BtnVoirPlus.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnVoirPlus.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnVoirPlus.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(136)))), ((int)(((byte)(232)))));
+            this.BtnVoirPlus.Location = new System.Drawing.Point(421, 34);
+            this.BtnVoirPlus.Name = "BtnVoirPlus";
+            this.BtnVoirPlus.Size = new System.Drawing.Size(121, 38);
+            this.BtnVoirPlus.TabIndex = 7;
+            this.BtnVoirPlus.Text = "Voir plus";
+            this.BtnVoirPlus.UseVisualStyleBackColor = true;
             // 
             // panel1
             // 
@@ -102,14 +102,14 @@
             this.AutoSize = true;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.BtnVoirPlus);
+            this.Controls.Add(this.lbl_fonction);
+            this.Controls.Add(this.lbl_nom);
             this.Controls.Add(this.PbxPhoto);
             this.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Personnel";
-            this.Size = new System.Drawing.Size(664, 90);
+            this.Size = new System.Drawing.Size(570, 90);
             ((System.ComponentModel.ISupportInitialize)(this.PbxPhoto)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -120,9 +120,9 @@
 
         private System.Windows.Forms.PictureBox PbxPhoto;
         private ElipsisControl elipsisControl1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Label lbl_nom;
+        private System.Windows.Forms.Label lbl_fonction;
+        private System.Windows.Forms.Button BtnVoirPlus;
         private System.Windows.Forms.Panel panel1;
     }
 }

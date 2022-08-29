@@ -95,3 +95,4 @@ C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie 
 C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie personnel\obj\Debug\Paie personnel.csproj.CopyComplete
 C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie personnel\obj\Debug\Paie personnel.exe
 C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie personnel\obj\Debug\Paie personnel.pdb
+C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie personnel\obj\Debug\Paie_personnel.FrmPaiement.resources

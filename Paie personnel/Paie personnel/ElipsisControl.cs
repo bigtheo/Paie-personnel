@@ -35,6 +35,7 @@ namespace Paie_personnel
             set
             {
                 ctrl = value;
+                if(ctrl != null)
                 ctrl.SizeChanged += Ctrl_SizeChanged;
             }
         }
@@ -51,6 +52,7 @@ namespace Paie_personnel
             set
             {
                 _conerRaduis = value;
+                if(value != _conerRaduis)
                 ControlTarget.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, ctrl.Width, ctrl.Height, _conerRaduis, _conerRaduis));
             }
         }
