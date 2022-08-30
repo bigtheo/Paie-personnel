@@ -167,6 +167,7 @@
     </Compile>
     <Compile Include="Common\Core\Couleur.cs" />
     <Compile Include="Common\Core\Transform.cs" />
+    <Compile Include="Common\Helper\Connexion.cs" />
     <Compile Include="FrmAjouterPersonnel.cs">
       <SubType>Form</SubType>
     </Compile>

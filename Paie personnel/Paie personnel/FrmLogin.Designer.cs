@@ -34,8 +34,8 @@ namespace Paie_personnel
             this.PanelBarreDeTitre = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.BtnFermer = new System.Windows.Forms.Button();
-            this.hintTextBox1 = new Windows.Forms.HintTextBox(this.components);
-            this.hintTextBox2 = new Windows.Forms.HintTextBox(this.components);
+            this.txt_userid = new Windows.Forms.HintTextBox(this.components);
+            this.txt_password = new Windows.Forms.HintTextBox(this.components);
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.BtnConnexion = new System.Windows.Forms.Button();
@@ -85,34 +85,34 @@ namespace Paie_personnel
             this.BtnFermer.UseVisualStyleBackColor = true;
             this.BtnFermer.Click += new System.EventHandler(this.BtnFermer_Click);
             // 
-            // hintTextBox1
+            // txt_userid
             // 
-            this.hintTextBox1.EnterToTab = false;
-            this.hintTextBox1.ForeColor = System.Drawing.Color.Gray;
-            this.hintTextBox1.HintColor = System.Drawing.Color.Gray;
-            this.hintTextBox1.HintValue = "Nom utilisateur";
-            this.hintTextBox1.Location = new System.Drawing.Point(165, 110);
-            this.hintTextBox1.Name = "hintTextBox1";
-            this.hintTextBox1.Size = new System.Drawing.Size(238, 29);
-            this.hintTextBox1.TabIndex = 1;
-            this.hintTextBox1.Text = "Nom utilisateur";
-            this.hintTextBox1.TextForeColor = System.Drawing.Color.Black;
-            this.hintTextBox1.Value = "";
+            this.txt_userid.EnterToTab = false;
+            this.txt_userid.ForeColor = System.Drawing.Color.Gray;
+            this.txt_userid.HintColor = System.Drawing.Color.Gray;
+            this.txt_userid.HintValue = "Nom utilisateur";
+            this.txt_userid.Location = new System.Drawing.Point(165, 110);
+            this.txt_userid.Name = "txt_userid";
+            this.txt_userid.Size = new System.Drawing.Size(238, 29);
+            this.txt_userid.TabIndex = 1;
+            this.txt_userid.Text = "Nom utilisateur";
+            this.txt_userid.TextForeColor = System.Drawing.Color.Black;
+            this.txt_userid.Value = "";
             // 
-            // hintTextBox2
+            // txt_password
             // 
-            this.hintTextBox2.EnterToTab = false;
-            this.hintTextBox2.ForeColor = System.Drawing.Color.Gray;
-            this.hintTextBox2.HintColor = System.Drawing.Color.Gray;
-            this.hintTextBox2.HintValue = "Mot de passe";
-            this.hintTextBox2.Location = new System.Drawing.Point(165, 141);
-            this.hintTextBox2.Name = "hintTextBox2";
-            this.hintTextBox2.Size = new System.Drawing.Size(238, 29);
-            this.hintTextBox2.TabIndex = 2;
-            this.hintTextBox2.Text = "Mot de passe";
-            this.hintTextBox2.TextForeColor = System.Drawing.Color.Black;
-            this.hintTextBox2.UseSystemPasswordChar = true;
-            this.hintTextBox2.Value = "";
+            this.txt_password.EnterToTab = false;
+            this.txt_password.ForeColor = System.Drawing.Color.Gray;
+            this.txt_password.HintColor = System.Drawing.Color.Gray;
+            this.txt_password.HintValue = "Mot de passe";
+            this.txt_password.Location = new System.Drawing.Point(165, 141);
+            this.txt_password.Name = "txt_password";
+            this.txt_password.Size = new System.Drawing.Size(238, 29);
+            this.txt_password.TabIndex = 2;
+            this.txt_password.Text = "Mot de passe";
+            this.txt_password.TextForeColor = System.Drawing.Color.Black;
+            this.txt_password.UseSystemPasswordChar = true;
+            this.txt_password.Value = "";
             // 
             // pictureBox1
             // 
@@ -173,8 +173,8 @@ namespace Paie_personnel
             this.Controls.Add(this.BtnConnexion);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.hintTextBox2);
-            this.Controls.Add(this.hintTextBox1);
+            this.Controls.Add(this.txt_password);
+            this.Controls.Add(this.txt_userid);
             this.Controls.Add(this.PanelBarreDeTitre);
             this.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -197,8 +197,8 @@ namespace Paie_personnel
 
         private System.Windows.Forms.Panel PanelBarreDeTitre;
         private System.Windows.Forms.Button BtnFermer;
-        private Windows.Forms.HintTextBox hintTextBox1;
-        private Windows.Forms.HintTextBox hintTextBox2;
+        private Windows.Forms.HintTextBox txt_userid;
+        private Windows.Forms.HintTextBox txt_password;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Button BtnConnexion;

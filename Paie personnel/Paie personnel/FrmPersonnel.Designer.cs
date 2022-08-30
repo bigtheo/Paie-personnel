@@ -108,6 +108,7 @@
             // 
             // panel3
             // 
+            this.panel3.BackColor = System.Drawing.Color.White;
             this.panel3.Controls.Add(this.BtnImprimer);
             this.panel3.Controls.Add(this.BtnAjouter);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Bottom;

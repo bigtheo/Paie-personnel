@@ -36,8 +36,16 @@ namespace Paie_personnel
 
         private void BtnConnexion_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            new FrmAccueil().Show();
+            if (Common.Helper.Connexion.OuvrirConnexion())
+            {
+                this.Hide();
+                new FrmAccueil().Show();
+            }
+            else
+            {
+                MessageBox.Show("Echec de connexion au serveur", "Information", MessageBoxButtons.OK, MessageBoxIcon.Error); ;
+            }
+           
         }
     }
 }
