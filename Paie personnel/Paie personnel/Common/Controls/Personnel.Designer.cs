@@ -49,6 +49,8 @@
             this.PbxPhoto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PbxPhoto.TabIndex = 0;
             this.PbxPhoto.TabStop = false;
+            this.PbxPhoto.MouseLeave += new System.EventHandler(this.Personnel_MouseLeave);
+            this.PbxPhoto.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Personnel_MouseMove);
             // 
             // lbl_nom
             // 
@@ -59,6 +61,7 @@
             this.lbl_nom.Size = new System.Drawing.Size(240, 28);
             this.lbl_nom.TabIndex = 1;
             this.lbl_nom.Text = "Nom, postnom et prénom";
+            this.lbl_nom.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Personnel_MouseMove);
             // 
             // lbl_fonction
             // 
@@ -68,6 +71,7 @@
             this.lbl_fonction.Size = new System.Drawing.Size(81, 25);
             this.lbl_fonction.TabIndex = 2;
             this.lbl_fonction.Text = "Fonction";
+            this.lbl_fonction.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Personnel_MouseMove);
             // 
             // BtnVoirPlus
             // 
@@ -90,6 +94,8 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(508, 2);
             this.panel1.TabIndex = 8;
+            this.panel1.MouseLeave += new System.EventHandler(this.Personnel_MouseLeave);
+            this.panel1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Personnel_MouseMove);
             // 
             // elipsisControl1
             // 
@@ -101,6 +107,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
             this.AutoSize = true;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.BackColor = System.Drawing.Color.White;
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.BtnVoirPlus);
             this.Controls.Add(this.lbl_fonction);
@@ -110,6 +117,8 @@
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Personnel";
             this.Size = new System.Drawing.Size(570, 90);
+            this.MouseLeave += new System.EventHandler(this.Personnel_MouseLeave);
+            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Personnel_MouseMove);
             ((System.ComponentModel.ISupportInitialize)(this.PbxPhoto)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

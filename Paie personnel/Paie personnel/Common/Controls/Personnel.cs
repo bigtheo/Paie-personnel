@@ -38,5 +38,15 @@ namespace Paie_personnel
         {
             InitializeComponent();
         }
+
+        private void Personnel_MouseMove(object sender, MouseEventArgs e)
+        {
+            this.BackColor = Color.FromArgb(230, 242, 250); 
+        }
+
+        private void Personnel_MouseLeave(object sender, EventArgs e)
+        {
+            this.BackColor = Color.FromArgb(255, 255, 255);
+        }
     }
 }

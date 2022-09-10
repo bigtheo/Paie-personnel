@@ -98,3 +98,9 @@ C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie 
 C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie personnel\obj\Debug\Paie_personnel.FrmPaiement.resources
 C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie personnel\obj\Debug\Paie_personnel.FrmAvantages.resources
 C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie personnel\obj\Debug\Paie_personnel.FrmRetenus.resources
+C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie personnel\bin\Debug\Paie personnel.exe.manifest
+C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie personnel\bin\Debug\Paie personnel.application
+C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie personnel\obj\Debug\Paie personnel.TrustInfo.xml
+C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie personnel\obj\Debug\Paie personnel.exe.manifest
+C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie personnel\obj\Debug\Paie personnel.application
+C:\Users\IT-ENGINEERING\Source\Repos\bigtheo\Paie-personnel\Paie personnel\Paie personnel\obj\Debug\Paie_personnel.Avantage.resources

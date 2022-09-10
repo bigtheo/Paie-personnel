@@ -13,6 +13,25 @@
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
     <TargetFrameworkProfile />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ProductName>Pay Manager</ProductName>
+    <PublisherName>Big Hope Software</PublisherName>
+    <SuiteName>CashManager</SuiteName>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -35,6 +54,21 @@
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationIcon>icons8_cash_in_hand.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>E584C8C607A3939E8528ED447C73DE1ED3AF5F7D</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="BouncyCastle.Crypto, Version=1.9.0.0, Culture=neutral, PublicKeyToken=0e99375e54769942, processorArchitecture=MSIL">
@@ -162,6 +196,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Common\Controls\Avantage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Common\Controls\Avantage.Designer.cs">
+      <DependentUpon>Avantage.cs</DependentUpon>
+    </Compile>
     <Compile Include="Common\Controls\CustomButton.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -221,6 +261,9 @@
     <Compile Include="Common\Controls\Personnel.Designer.cs">
       <DependentUpon>Personnel.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Common\Controls\Avantage.resx">
+      <DependentUpon>Avantage.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Common\Controls\Personnel.resx">
       <DependentUpon>Personnel.cs</DependentUpon>
     </EmbeddedResource>
@@ -256,6 +299,7 @@
       <DesignTime>True</DesignTime>
     </Compile>
     <None Include="packages.config" />
+    <None Include="Properties\app.manifest" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -272,6 +316,18 @@
   <ItemGroup>
     <Content Include="icons8_cash_in_hand.ico" />
     <None Include="Resources\personnel.Image.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.8">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.8 %28x86 et x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
