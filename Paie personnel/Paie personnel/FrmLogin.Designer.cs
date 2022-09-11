@@ -41,6 +41,7 @@ namespace Paie_personnel
             this.BtnConnexion = new System.Windows.Forms.Button();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.elipsisControl1 = new Paie_personnel.ElipsisControl();
+            this.elipsisControl2 = new Paie_personnel.ElipsisControl();
             this.PanelBarreDeTitre.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -55,7 +56,7 @@ namespace Paie_personnel
             this.PanelBarreDeTitre.Dock = System.Windows.Forms.DockStyle.Top;
             this.PanelBarreDeTitre.Location = new System.Drawing.Point(0, 0);
             this.PanelBarreDeTitre.Name = "PanelBarreDeTitre";
-            this.PanelBarreDeTitre.Size = new System.Drawing.Size(441, 46);
+            this.PanelBarreDeTitre.Size = new System.Drawing.Size(443, 46);
             this.PanelBarreDeTitre.TabIndex = 0;
             this.PanelBarreDeTitre.MouseDown += new System.Windows.Forms.MouseEventHandler(this.PanelBarreDeTitre_MouseDown);
             // 
@@ -77,7 +78,7 @@ namespace Paie_personnel
             this.BtnFermer.FlatAppearance.BorderSize = 0;
             this.BtnFermer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnFermer.ForeColor = System.Drawing.Color.White;
-            this.BtnFermer.Location = new System.Drawing.Point(394, 0);
+            this.BtnFermer.Location = new System.Drawing.Point(396, 0);
             this.BtnFermer.Name = "BtnFermer";
             this.BtnFermer.Size = new System.Drawing.Size(47, 46);
             this.BtnFermer.TabIndex = 1;
@@ -95,7 +96,6 @@ namespace Paie_personnel
             this.txt_userid.Name = "txt_userid";
             this.txt_userid.Size = new System.Drawing.Size(238, 29);
             this.txt_userid.TabIndex = 1;
-            this.txt_userid.Text = "Nom utilisateur";
             this.txt_userid.TextForeColor = System.Drawing.Color.Black;
             this.txt_userid.Value = "";
             // 
@@ -109,7 +109,6 @@ namespace Paie_personnel
             this.txt_password.Name = "txt_password";
             this.txt_password.Size = new System.Drawing.Size(238, 29);
             this.txt_password.TabIndex = 2;
-            this.txt_password.Text = "Mot de passe";
             this.txt_password.TextForeColor = System.Drawing.Color.Black;
             this.txt_password.UseSystemPasswordChar = true;
             this.txt_password.Value = "";
@@ -140,9 +139,9 @@ namespace Paie_personnel
             this.BtnConnexion.FlatAppearance.BorderSize = 0;
             this.BtnConnexion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnConnexion.ForeColor = System.Drawing.Color.White;
-            this.BtnConnexion.Location = new System.Drawing.Point(165, 182);
+            this.BtnConnexion.Location = new System.Drawing.Point(165, 185);
             this.BtnConnexion.Name = "BtnConnexion";
-            this.BtnConnexion.Size = new System.Drawing.Size(119, 35);
+            this.BtnConnexion.Size = new System.Drawing.Size(107, 35);
             this.BtnConnexion.TabIndex = 5;
             this.BtnConnexion.Text = "Connexion";
             this.BtnConnexion.UseVisualStyleBackColor = false;
@@ -160,15 +159,20 @@ namespace Paie_personnel
             // 
             // elipsisControl1
             // 
-            this.elipsisControl1.ControlTarget = this.BtnConnexion;
-            this.elipsisControl1.CornerRadius = 10;
+            this.elipsisControl1.ControlTarget = this;
+            this.elipsisControl1.CornerRadius = 20;
+            // 
+            // elipsisControl2
+            // 
+            this.elipsisControl2.ControlTarget = this.BtnConnexion;
+            this.elipsisControl2.CornerRadius = 15;
             // 
             // FrmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(441, 258);
+            this.ClientSize = new System.Drawing.Size(443, 245);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.BtnConnexion);
             this.Controls.Add(this.pictureBox2);
@@ -205,5 +209,6 @@ namespace Paie_personnel
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox3;
         private ElipsisControl elipsisControl1;
+        private ElipsisControl elipsisControl2;
     }
 }

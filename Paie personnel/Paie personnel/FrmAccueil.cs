@@ -158,5 +158,10 @@ namespace Paie_personnel
             BtnAvantages.Image = Couleur.DefaultColor((Bitmap)BtnAvantages.Image); ;
             BtnPersonnel.Image = Couleur.DefaultColor((Bitmap)BtnPersonnel.Image);
         }
+
+        private void FrmAccueil_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

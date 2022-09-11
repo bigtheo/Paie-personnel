@@ -119,6 +119,7 @@ namespace Paie_personnel
             this.hintTextBox1.Name = "hintTextBox1";
             this.hintTextBox1.Size = new System.Drawing.Size(399, 27);
             this.hintTextBox1.TabIndex = 50;
+            this.hintTextBox1.Text = "Ecrire le nom ou le matricule du travailleur";
             this.hintTextBox1.TextForeColor = System.Drawing.Color.White;
             this.hintTextBox1.Value = "";
             // 
@@ -358,6 +359,7 @@ namespace Paie_personnel
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "RH PAY MANAGER";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmAccueil_FormClosing);
             this.panelHeader.ResumeLayout(false);
             this.panelText.ResumeLayout(false);
             this.panelText.PerformLayout();

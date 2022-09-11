@@ -38,8 +38,10 @@ namespace Paie_personnel
         {
             if (Common.Helper.Connexion.OuvrirConnexion())
             {
+
                 this.Hide();
                 new FrmAccueil().Show();
+                
             }
             else
             {

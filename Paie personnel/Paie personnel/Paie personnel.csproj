@@ -208,6 +208,12 @@
     <Compile Include="Common\Core\Couleur.cs" />
     <Compile Include="Common\Core\Transform.cs" />
     <Compile Include="Common\Helper\Connexion.cs" />
+    <Compile Include="FrmAjouterAvance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAjouterAvance.Designer.cs">
+      <DependentUpon>FrmAjouterAvance.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmAjouterPersonnel.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -266,6 +272,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Common\Controls\Personnel.resx">
       <DependentUpon>Personnel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAjouterAvance.resx">
+      <DependentUpon>FrmAjouterAvance.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmAjouterPersonnel.resx">
       <DependentUpon>FrmAjouterPersonnel.cs</DependentUpon>

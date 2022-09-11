@@ -28,23 +28,28 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel3 = new System.Windows.Forms.Panel();
             this.BtnImprimer = new System.Windows.Forms.Button();
             this.BtnAjouter = new System.Windows.Forms.Button();
             this.listView1 = new System.Windows.Forms.ListView();
             this.ListePersonnel = new System.Windows.Forms.FlowLayoutPanel();
+            this.personnel1 = new Paie_personnel.Personnel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.personnel1 = new Paie_personnel.Personnel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel6 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.panel7 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.listView2 = new System.Windows.Forms.ListView();
+            this.DgvListe = new System.Windows.Forms.DataGridView();
             this.panel3.SuspendLayout();
             this.ListePersonnel.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -53,6 +58,7 @@
             this.panel5.SuspendLayout();
             this.panel6.SuspendLayout();
             this.panel7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.DgvListe)).BeginInit();
             this.SuspendLayout();
             // 
             // panel3
@@ -115,6 +121,20 @@
             this.ListePersonnel.Size = new System.Drawing.Size(746, 468);
             this.ListePersonnel.TabIndex = 0;
             // 
+            // personnel1
+            // 
+            this.personnel1.AutoSize = true;
+            this.personnel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.personnel1.BackColor = System.Drawing.Color.White;
+            this.personnel1.Fonction = "Professeur";
+            this.personnel1.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.personnel1.Location = new System.Drawing.Point(4, 5);
+            this.personnel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.personnel1.Name = "personnel1";
+            this.personnel1.Nom = "kapapa mumba";
+            this.personnel1.Size = new System.Drawing.Size(570, 90);
+            this.personnel1.TabIndex = 0;
+            // 
             // panel2
             // 
             this.panel2.Controls.Add(this.panel4);
@@ -134,19 +154,6 @@
             this.panel4.Size = new System.Drawing.Size(746, 468);
             this.panel4.TabIndex = 5;
             // 
-            // personnel1
-            // 
-            this.personnel1.AutoSize = true;
-            this.personnel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.personnel1.Fonction = "Professeur";
-            this.personnel1.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.personnel1.Location = new System.Drawing.Point(4, 5);
-            this.personnel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.personnel1.Name = "personnel1";
-            this.personnel1.Nom = "kapapa mumba";
-            this.personnel1.Size = new System.Drawing.Size(570, 90);
-            this.personnel1.TabIndex = 0;
-            // 
             // panel1
             // 
             this.panel1.Controls.Add(this.panel5);
@@ -159,25 +166,12 @@
             // 
             // panel5
             // 
-            this.panel5.Controls.Add(this.flowLayoutPanel1);
+            this.panel5.Controls.Add(this.DgvListe);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel5.Location = new System.Drawing.Point(0, 0);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(746, 417);
             this.panel5.TabIndex = 5;
-            // 
-            // flowLayoutPanel1
-            // 
-            this.flowLayoutPanel1.AutoScroll = true;
-            this.flowLayoutPanel1.AutoSize = true;
-            this.flowLayoutPanel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.flowLayoutPanel1.BackColor = System.Drawing.Color.White;
-            this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowLayoutPanel1.Font = new System.Drawing.Font("Segoe UI", 10.2F);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(746, 417);
-            this.flowLayoutPanel1.TabIndex = 0;
             // 
             // panel6
             // 
@@ -245,6 +239,58 @@
             this.listView2.TabIndex = 7;
             this.listView2.UseCompatibleStateImageBehavior = false;
             // 
+            // DgvListe
+            // 
+            this.DgvListe.AccessibleDescription = "Liste du personnel";
+            this.DgvListe.AllowUserToAddRows = false;
+            this.DgvListe.AllowUserToDeleteRows = false;
+            this.DgvListe.AllowUserToOrderColumns = true;
+            this.DgvListe.AllowUserToResizeRows = false;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.DgvListe.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            this.DgvListe.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.DisplayedCells;
+            this.DgvListe.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCellsExceptHeaders;
+            this.DgvListe.BackgroundColor = System.Drawing.Color.White;
+            this.DgvListe.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.DgvListe.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleVertical;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(150)))), ((int)(((byte)(200)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DgvListe.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            this.DgvListe.ColumnHeadersHeight = 40;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(242)))), ((int)(((byte)(250)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.InactiveCaptionText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.DgvListe.DefaultCellStyle = dataGridViewCellStyle3;
+            this.DgvListe.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.DgvListe.Location = new System.Drawing.Point(0, 0);
+            this.DgvListe.MultiSelect = false;
+            this.DgvListe.Name = "DgvListe";
+            this.DgvListe.ReadOnly = true;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(100)))), ((int)(((byte)(200)))));
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(136)))), ((int)(((byte)(232)))));
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DgvListe.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            this.DgvListe.RowHeadersWidth = 60;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DgvListe.RowsDefaultCellStyle = dataGridViewCellStyle5;
+            this.DgvListe.RowTemplate.Height = 24;
+            this.DgvListe.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.DgvListe.Size = new System.Drawing.Size(746, 417);
+            this.DgvListe.TabIndex = 1;
+            // 
             // FrmPaiement
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -268,10 +314,10 @@
             this.panel4.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
-            this.panel5.PerformLayout();
             this.panel6.ResumeLayout(false);
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.DgvListe)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -288,12 +334,12 @@
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ListView listView2;
+        private System.Windows.Forms.DataGridView DgvListe;
     }
 }

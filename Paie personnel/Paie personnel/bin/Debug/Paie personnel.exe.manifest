@@ -331,14 +331,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Paie personnel.exe" size="93720">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Paie personnel.exe" size="103448">
       <assemblyIdentity name="Paie personnel" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>JXdfzPtkjeCZgGDijGQhuxAY0FM3oHqtLRH1sQ4U3lI=</dsig:DigestValue>
+        <dsig:DigestValue>DWJ6Gp53fUSIxZbMGXyqV6PsyJ+QbJcra5wsscCojxI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -471,13 +471,13 @@
       <dsig:DigestValue>Cq4qQi6pSc+XZPBvfjkIJQVFfGNBytc4ZIrJx+NU2Xo=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Paie personnel.exe.config" size="2297">
+  <file name="Paie personnel.exe.config" size="2277">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>WKlPZZ7hArzQxQTiHUDlZGbiTn9WH8YLLPQFZHTAvPc=</dsig:DigestValue>
+      <dsig:DigestValue>2c6kIwzjSRy4mEpTyYZbRkSSwIBMHixhQDZjq0d7hgc=</dsig:DigestValue>
     </hash>
   </file>
   <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
