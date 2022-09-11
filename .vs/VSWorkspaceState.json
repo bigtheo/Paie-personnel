@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\Paie personnel",
+    "\\Paie personnel\\Paie personnel",
     "\\Paie personnel\\Paie personnel\\Common"
   ],
-  "SelectedNode": "\\Paie personnel\\Paie personnel.sln",
+  "SelectedNode": "\\Paie personnel\\Paie personnel\\FrmAvantages.cs",
   "PreviewInSolutionExplorer": false
 }
