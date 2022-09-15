@@ -40,6 +40,7 @@ namespace Paie_personnel
             if (!string.IsNullOrEmpty(txt_matricule.Text)&& !string.IsNullOrEmpty(cbx_mois.Text)&& nup_montant.Value>0)
             {
                 EnregisterAvance();
+                BtnEnregistrer.Enabled = false; 
             }
             else
             {
@@ -90,6 +91,130 @@ namespace Paie_personnel
 
                 }
             }
+        }
+        private void GetPersonnelInformations()
+        {
+            string sql = "select p.id, p.nom,p.Fonction,p.Salaire + p.Transport + p.Logement + p.Assidite + p.Diplome + p.Pfonction 'Salaire Brut',\r\np.Enfant + p.CNSS + p.DGI + Autres  + ifnull(sum(a.montant),0) Retenu ,\r\n(p.Salaire + p.Transport + p.Logement + p.Assidite + p.Diplome + p.Pfonction )-(p.Enfant + p.CNSS + p.DGI + Autres ) - ifnull(sum(a.montant),0) 'Net à payer' \r\nfrom  personnel p left join avance a on a.personnel_id = p.id where p.id=@p_id group by (p.id) ;";
+            using (MySqlCommand cmd=new MySqlCommand(sql, Connexion.Con))
+            {
+                MySqlParameter p_id = new MySqlParameter("@p_id", MySqlDbType.Int64)
+                {
+                    Value = txt_matricule.Value
+                };
+                cmd.Parameters.Add(p_id);
+
+
+                MySqlDataReader dr = cmd.ExecuteReader();
+
+                lbl_nom.Text = "-";
+                lbl_fonction.Text = "0";
+                lbl_salaire_de_brut.Text = "0";
+                lbl_retenu.Text = "0";
+
+                while (dr.Read())
+                {
+                    lbl_nom.Text = dr.GetString(1);
+                    lbl_fonction.Text = dr.GetString(2);
+                    lbl_salaire_de_brut.Text=dr.GetString(3);
+                    lbl_retenu.Text = dr.GetString(4);
+                }
+                dr.Close();
+
+
+            }
+            {
+
+            }
+        }
+
+        private void txt_matricule_KeyDown(object sender, KeyEventArgs e)
+        {
+            if(e.KeyCode == Keys.Enter)
+            {
+                GetPersonnelInformations();
+
+                if(decimal.TryParse(lbl_salaire_de_brut.Text,out decimal salaire_brut))
+                {
+                    if(salaire_brut > 0)
+                    {
+                        BtnEnregistrer.Enabled= true;
+                    }
+                    else
+                    {
+                        BtnEnregistrer.Enabled = false;
+                    }
+                }
+            }
+        }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbl_retenu_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbl_fonction_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbl_nom_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbl_salaire_de_brut_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void nup_montant_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label11_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cbx_mois_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label12_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txt_matricule_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
